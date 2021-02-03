@@ -1,0 +1,9 @@
+@font-face {
+    font-family: KenVector Future;
+    src: url('Ressources/kenvector_future.ttf');
+}
+
+.label{
+	-fx-font-family: 'KenVector Future';
+     
+}

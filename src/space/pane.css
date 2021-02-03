@@ -1,0 +1,10 @@
+@font-face {
+    font-family: KenVector Future;
+    src: url('Ressources/kenvector_future.ttf');
+}
+.anchorpane {
+	
+	-fx-background-image: url('space/Ressources/deep_blue.png');
+
+}
+

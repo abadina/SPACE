@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SPACE.jnlp">
+  <information>
+    <title>SPACE</title>
+    <vendor>ACER</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SPACE.jar" size="720146" download="eager" />
+    <jar href="lib\guava-22.0.jar" size="2575022" download="eager" />
+    <jar href="lib\jackson-all-1.9.0.jar" size="1105958" download="eager" />
+    <jar href="lib\java-flac-encoder-0.3.7.jar" size="89315" download="eager" />
+    <jar href="lib\java-google-speech-api-V2.1.jar" size="51036" download="eager" />
+    <jar href="lib\marytts-builder-5.2-jar-with-dependencies.jar" size="35640312" download="eager" />
+    <jar href="lib\marytts-lang-en-5.2.jar" size="6908619" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.18.jar" size="2330539" download="eager" />
+    <jar href="lib\voice-cmu-slt-hsmm-5.2.jar" size="1242746" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="SPACE" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="space.SPACE"  name="SPACE" />
+  <update check="always"/>
+</jnlp>

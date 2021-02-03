@@ -1,0 +1,18 @@
+@font-face {
+    font-family: KenVector Future;
+    src: url('Ressources/kenvector_future.ttf');
+}
+.button {
+	-fx-background-color: transparent;
+
+    -fx-font-family: 'KenVector Future';
+ 
+}
+
+.button:hover{
+	-fx-background-color: transparent;
+	-fx-text-fill: black;
+        -fx-scale-y:1.05;
+        -fx-scale-x:1.05;
+     
+}

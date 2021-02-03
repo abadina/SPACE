@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="760.0" style="-fx-background-image: url('space/Ressources/deep_blue.png');" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="space.SaviezVousController">
+   <children>
+      <ImageView fitHeight="96.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url(space/Ressources/logo.png);" />
+      <Label layoutX="230.0" layoutY="40.0" prefHeight="40.0" prefWidth="295.0" stylesheets="@Label.css" text="Le saviez-vous?" textFill="#f5f3f3">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="200.0" layoutY="109.0" stylesheets="@Label.css" text="Choisissez un langage :" textFill="#f5f3f3">
+         <font>
+            <Font name="Times New Roman Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="390.0" layoutY="145.0" mnemonicParsing="false" onAction="#toinfojava" prefHeight="130.0" prefWidth="135.0" style="-fx-background-image: url('space/Ressources/JAVAINFO.png'); -fx-background-color: transparent;" stylesheets="@buttonL.css" >
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="57.0" layoutY="150.0" mnemonicParsing="false" onAction="#toinfoC" prefHeight="120.0" prefWidth="130.0" style="-fx-background-image: url('space/Ressources/CINFO.png'); -fx-background-color: transparent;" stylesheets="@buttonL.css" >
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="552.0" layoutY="256.0" mnemonicParsing="false" onAction="#toinfocpp" prefHeight="130.0" prefWidth="135.0" style="-fx-background-image: url('space/Ressources/C++INFO.png'); -fx-background-color: transparent;" stylesheets="@buttonL.css" >
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="188.0" layoutY="256.0" mnemonicParsing="false" onAction="#toinfojs" prefHeight="130.0" prefWidth="150.0" style="-fx-background-image: url('space/Ressources/JSINFO.png'); -fx-background-color: transparent;" stylesheets="@buttonL.css" >
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+       <Button fx:id="but" layoutX="633.0" layoutY="16.0" mnemonicParsing="false" onAction="#parametre" prefHeight="79.0" prefWidth="98.0" stylesheets="@avatar.css" />
+      <Button layoutX="29.0" layoutY="374.0" mnemonicParsing="false" onAction="#menu" prefHeight="50.0" prefWidth="55.0" stylesheets="@home.css" />
+   </children>
+</AnchorPane>

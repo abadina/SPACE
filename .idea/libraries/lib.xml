@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/lib/java-flac-encoder-0.3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/marytts-builder-5.2-jar-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jackson-all-1.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/guava-22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/java-google-speech-api-V2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/mysql-connector-java-5.1.23-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/voice-cmu-slt-hsmm-5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/mysql-connector-java-8.0.18.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/marytts-lang-en-5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

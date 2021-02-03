@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="760.0" style="-fx-background-image: url(space/Ressources/deep_blue.png);" stylesheets="@Label.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="space.MapJSController">
+   <children>
+      <Button fx:id="1" layoutX="70.0" layoutY="136.0" mnemonicParsing="false" onAction="#nextpage" prefHeight="43.0" prefWidth="43.0" stylesheets="@m1.css" text="1" />
+      <Button fx:id="2" layoutX="91.0" layoutY="196.0" mnemonicParsing="false" onAction="#nextpage" prefHeight="40.0" prefWidth="45.0" stylesheets="@m2.css" text="2" />
+      <Button fx:id="3" layoutX="114.0" layoutY="257.0" mnemonicParsing="false" onAction="#nextpage" prefHeight="40.0" prefWidth="45.0" stylesheets="@m2.css" text="3" />
+      <Button fx:id="4" layoutX="159.0" layoutY="310.0" mnemonicParsing="false" onAction="#nextpage" prefHeight="43.0" prefWidth="43.0" stylesheets="@m1.css" text="4" />
+      <Button fx:id="5" layoutX="222.0" layoutY="332.0" mnemonicParsing="false" onAction="#nextpage" prefHeight="40.0" prefWidth="43.0" stylesheets="@m2.css" text="5" />
+      <Button fx:id="6" layoutX="277.0" layoutY="331.0" mnemonicParsing="false" onAction="#nextpage" prefHeight="40.0" prefWidth="45.0" stylesheets="@m4.css" text="6" />
+      <Button fx:id="7" layoutX="333.0" layoutY="317.0" mnemonicParsing="false" onAction="#nextpage" prefHeight="43.0" prefWidth="43.0" stylesheets="@m3.css" text="7" />
+      <Button fx:id="8" layoutX="364.0" layoutY="269.0" mnemonicParsing="false" onAction="#nextpage" prefHeight="40.0" prefWidth="45.0" stylesheets="@m4.css" text="8" />
+      <Button fx:id="9" layoutX="387.0" layoutY="216.0" mnemonicParsing="false" onAction="#nextpage" prefHeight="40.0" prefWidth="45.0" stylesheets="@m4.css" text="9" />
+      <Button fx:id="10" layoutX="411.0" layoutY="168.0" mnemonicParsing="false" onAction="#nextpage" prefHeight="43.0" prefWidth="43.0" stylesheets="@m3.css" text="10" />
+      <Button fx:id="11" layoutX="443.0" layoutY="117.0" mnemonicParsing="false" onAction="#nextpage" prefHeight="40.0" prefWidth="45.0" stylesheets="@m6.css" text="11" />
+      <Button fx:id="12" layoutX="488.0" layoutY="74.0" mnemonicParsing="false" onAction="#nextpage" prefHeight="43.0" prefWidth="43.0" stylesheets="@m5.css" text="12" />
+      <Button fx:id="13" layoutX="557.0" layoutY="76.0" mnemonicParsing="false" onAction="#nextpage" prefHeight="40.0" prefWidth="45.0" stylesheets="@m6.css" text="13" />
+      <Button fx:id="14" layoutX="609.0" layoutY="116.0" mnemonicParsing="false" onAction="#nextpage" prefHeight="40.0" prefWidth="45.0" stylesheets="@m6.css" text="14" />
+      <Button fx:id="15" layoutX="646.0" layoutY="168.0" mnemonicParsing="false" onAction="#nextpage" prefHeight="43.0" prefWidth="43.0" stylesheets="@m5.css" text="15" />
+      <ImageView fitHeight="150.0" fitWidth="151.0" layoutX="605.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url(space/Ressources/JSmap.png);" />
+      <ImageView fx:id="AV" fitHeight="32.5" fitWidth="40.0" layoutX="116.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true" rotate="165.4" style="-fx-image: url('space/Ressources/AV1.png');" />
+<Button layoutX="28.0" layoutY="375.0" mnemonicParsing="false" onAction="#back" prefHeight="49.0" prefWidth="115.0" style="-fx-background-color: transparent; -fx-background-image: url('space/Ressources/spaceit.png');" stylesheets="@buttonL.css" />
+            <Label fx:id="score" layoutX="602.0" layoutY="20.0" prefHeight="40.0" prefWidth="207.0" stylesheets="@Label.css" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+
+   </children>
+</AnchorPane>

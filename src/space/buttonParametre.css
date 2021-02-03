@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24 janv. 2020, 18:29:01
+    Author     : ACER
+*/
+
+@font-face {
+    font-family: KenVector Future;
+    src: url('Ressources/kenvector_future.ttf');
+}
+.button {
+	-fx-background-color: transparent;
+	-fx-background-image: url('Ressources/yellow_button01.png');
+    -fx-text-fill: black;
+    -fx-font-family: 'KenVector Future';
+   -fx-font-size: 11px;
+}
+
+.button:hover{
+	-fx-background-color: transparent;
+	-fx-text-fill: black;
+        -fx-scale-y:1.05;
+        -fx-scale-x:1.05;
+        -fx-font-size: 11px;
+}

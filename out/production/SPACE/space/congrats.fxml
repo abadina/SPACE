@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="559.0" prefWidth="559.0" style="-fx-background-image: url('space/Ressources/deep_blue.png'); -fx-background-color: blue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="space.CongratsController">
+   <children>
+      <ImageView fx:id="feu" fitHeight="250.0" fitWidth="98.0" layoutX="230.0" layoutY="526.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url('space/Ressources/fire.png');" />
+      <ImageView fx:id="im" fitHeight="75.0" fitWidth="98.0" layoutX="230.5" layoutY="461.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="F" alignment="CENTER" layoutX="27.0" layoutY="191.0" prefHeight="81.0" prefWidth="534.0" stylesheets="@Label.css" text="Felicitation!" textFill="WHITE">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </Label>
+      <Button fx:id="S" layoutX="322.0" layoutY="559.0" mnemonicParsing="false" onAction="#suivant" prefHeight="46.0" prefWidth="190.0" stylesheets="@button.css" text="suivant" />
+      <Button fx:id="V" layoutX="41.0" layoutY="559.0" mnemonicParsing="false" onAction="#tomap" prefHeight="46.0" prefWidth="190.0" stylesheets="@button.css" text="voir map" />
+      <Button layoutX="14.0" layoutY="492.0" mnemonicParsing="false" onAction="#men" prefHeight="53.0" prefWidth="52.0" stylesheets="@home.css" />
+   </children>
+</AnchorPane>

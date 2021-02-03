@@ -1,0 +1,12 @@
+.button {
+	-fx-background-color: transparent;
+	-fx-background-image: url('Ressources/avatar3.png');
+    -fx-text-fill: black;
+}
+
+.button:hover{
+	-fx-background-color: transparent;
+	-fx-text-fill: black;
+        -fx-scale-y:1.25;
+        -fx-scale-x:1.25;
+}

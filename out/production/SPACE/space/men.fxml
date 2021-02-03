@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="760.0" style="-fx-background-image: url('space/Ressources/deep_blue.png');" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="space.menController">
+   <children>
+      <Button layoutX="285.0" layoutY="149.0" mnemonicParsing="false" onAction="#jouer" prefHeight="46.0" prefWidth="190.0" stylesheets="@button.css" text="JOUER">
+         <font>
+            <Font name="KenVector Future Regular" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="285.0" layoutY="204.0" mnemonicParsing="false" onAction="#langage" prefHeight="46.0" prefWidth="190.0" stylesheets="@button.css" text="S'aviez-vous?">
+         <font>
+            <Font name="KenVector Future Regular" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="285.0" layoutY="258.0" mnemonicParsing="false" onAction="#score" prefHeight="46.0" prefWidth="190.0" stylesheets="@button.css" text="SCORE">
+         <font>
+            <Font name="KenVector Future Regular" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="285.0" layoutY="316.0" mnemonicParsing="false" onAction="#quitter" prefHeight="46.0" prefWidth="190.0" stylesheets="@button.css" text="QUITTER">
+         <font>
+            <Font name="KenVector Future" size="18.0" />
+         </font>
+      </Button>
+       <Label layoutX="298.0" layoutY="55.0" prefHeight="79.0" prefWidth="169.0" stylesheets="@Label.css" text="MENU" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="KenVector Future" size="46.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="147.0" fitWidth="200.0" layoutX="27.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url('space/Ressources/logo.png');" />
+      <Button fx:id="but" layoutX="633.0" layoutY="16.0" mnemonicParsing="false" onAction="#parametre" prefHeight="79.0" prefWidth="98.0" stylesheets="@avatar.css" />
+      <Button layoutX="682.0" layoutY="377.0" mnemonicParsing="false" onAction="#Aide" prefHeight="46.0" prefWidth="45.0" stylesheets="@help.css" />
+   </children>
+</AnchorPane>

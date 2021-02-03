@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="730.0" style="-fx-background-image: url(space/Ressources/deep_blue.png);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="space.GAMEOVERController">
+   <children>
+      <ImageView fitHeight="97.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url(space/Ressources/logo.png);" />
+      <Label fx:id="go" alignment="CENTER" layoutX="57.0" layoutY="199.0" prefHeight="53.0" prefWidth="629.0" stylesheets="@Label.css" text="GAME OVER" textFill="#e11212">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="383.0" mnemonicParsing="false" onAction="#menu" prefHeight="53.0" prefWidth="52.0" stylesheets="@home.css" />
+      <Button fx:id="RJ" layoutX="270.0" layoutY="497.0" mnemonicParsing="false" onAction="#rejouer" prefHeight="46.0" prefWidth="190.0" stylesheets="@button.css" text="Rejouer" />
+      <ImageView fx:id="im" fitHeight="75.0" fitWidth="98.0" layoutX="32.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="feu" fitHeight="250.0" fitWidth="98.0" layoutX="-84.0" layoutY="-76.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url('space/Ressources/fire.png');" />
+
+     
+   </children>
+</AnchorPane>

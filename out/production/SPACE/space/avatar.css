@@ -1,0 +1,13 @@
+.button {
+	-fx-background-color: transparent;
+    -fx-font-family: 'KenVector Future';
+    -fx-rotate: 30;
+}
+
+.button:hover{
+	-fx-background-color: transparent;
+        -fx-scale-y:1.05;
+        -fx-scale-x:1.05;
+}
+
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="559.0" prefWidth="559.0" style="-fx-background-image: url('space/Ressources/deep_blue.png');" stylesheets="@pane.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="space.ParametreController">
+   
+   <children>
+      <Button alignment="CENTER" layoutX="200.0" layoutY="250.0" mnemonicParsing="false" onAction="#resetpage" prefHeight="46.0" prefWidth="190.0" stylesheets="@buttonParametre.css" text="Modifier mot de passe">
+         
+      </Button>
+      <Button alignment="CENTER" layoutX="200.0" layoutY="320.0" mnemonicParsing="false" onAction="#rec" prefHeight="46.0" prefWidth="190.0" stylesheets="@buttonParametre.css" text=" Repondre par voix">
+         
+      </Button>
+      <Button alignment="CENTER" layoutX="200.0" layoutY="390.0" mnemonicParsing="false" onAction="#avatar" prefHeight="46.0" prefWidth="190.0" stylesheets="@buttonParametre.css" text="Modifier avatar">
+         
+      </Button>
+     
+     
+      <Label layoutX="170.0" layoutY="150.0" prefHeight="50.0" prefWidth="291.0" stylesheets="@Label.css" text="Parametres" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="6.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url(space/Ressources/logo.png);" />
+      <Label fx:id="voix" layoutX="186.0" layoutY="192.0" prefHeight="31.0" prefWidth="262.0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+     
+   </children>
+</AnchorPane>

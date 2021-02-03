@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="730.0" style="-fx-background-image: url(space/Ressources/deep_blue.png);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="space.qst_controller">
+   <children>
+      <ImageView fitHeight="97.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url(space/Ressources/logo.png);" />
+      <RadioButton fx:id="c2" layoutX="142.0" layoutY="292.0" mnemonicParsing="false" textFill="WHITE">
+         <toggleGroup>
+            <ToggleGroup fx:id="groupe1" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="c1" layoutX="142.0" layoutY="254.0" mnemonicParsing="false" textFill="#fffefe" toggleGroup="$groupe1" />
+      <RadioButton fx:id="c3" layoutX="142.0" layoutY="331.0" mnemonicParsing="false" textFill="WHITE" toggleGroup="$groupe1" />
+      <Button layoutX="521.0" layoutY="393.0" mnemonicParsing="false" onAction="#next" prefHeight="45.0" prefWidth="191.0" stylesheets="@button.css" text="NEXT" />
+      <Text fx:id="qst" fill="WHITE" layoutX="90.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="592.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Label fx:id="title" layoutX="340.0" layoutY="64.0" stylesheets="@Label.css" text="Label" textFill="WHITE">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Button layoutX="174.0" layoutY="393.0" mnemonicParsing="false" onAction="#showres" prefHeight="45.0" prefWidth="191.0" stylesheets="@button.css" text="Vérifier " />
+      <Label fx:id="c" layoutX="593.0" layoutY="14.0" prefHeight="47.0" prefWidth="106.0" stylesheets="@Label.css" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="score" layoutX="437.0" layoutY="29.0" prefHeight="17.0" prefWidth="90.0" stylesheets="@Label.css" textFill="WHITE" />
+     
+   </children>
+</AnchorPane>

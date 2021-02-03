@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="760.0" style="-fx-background-image: url('space/Ressources/deep_blue.png');" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="space.modesController">
+   <children>
+        <Label layoutX="264.0" layoutY="140.0" stylesheets="@Label.css" text="Etes-vous prêts ?" textFill="#fff9f9">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="6.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url(space/Ressources/logo.png);" />
+      <Button layoutX="434.0" layoutY="190.0" onAction="#modespe" prefHeight="46.0" prefWidth="190.0" style="-fx-background-color: rgb(255,205,32);" stylesheets="@buttonmode.css" text="Mode spécifique">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="mg" layoutX="117.0" layoutY="190.0" onAction="#modeG" prefHeight="46.0" prefWidth="190.0" style="-fx-background-color: rgb(255,205,32);" stylesheets="@buttonmode.css" text="Mode général">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      
+      
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="but" layoutX="633.0" layoutY="16.0" mnemonicParsing="false" onAction="#parametre" prefHeight="79.0" prefWidth="98.0" stylesheets="@avatar.css" />
+  <Button layoutX="29.0" layoutY="374.0" mnemonicParsing="false" onAction="#menu" prefHeight="50.0" prefWidth="55.0" stylesheets="@home.css" />
+   </children>
+</AnchorPane>

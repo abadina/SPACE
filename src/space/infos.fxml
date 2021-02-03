@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="760.0" style="-fx-background-image: url(space/Ressources/deep_blue.png);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="space.infolan_Controller">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url(space/Ressources/logo.png);" />
+      <Label fx:id="Langage" layoutX="339.0" layoutY="74.0" prefHeight="49.0" prefWidth="362.0" stylesheets="@Label.css" textFill="WHITE">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="logo" fitHeight="150.0" fitWidth="200.0" layoutX="593.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="47.0" layoutY="350.0" mnemonicParsing="false" onAction="#SV" prefHeight="49.0" prefWidth="51.0" stylesheets="@return.css" />
+      <Text fx:id="info" fill="WHITE" layoutX="104.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C est un langage de programmation impératif généraliste, de bas niveau. Inventé au début des années 1970 pour réécrire UNIX, C est devenu un des langages les plus utilisés, encore de nos jours. De nombreux langages plus modernes comme C++, C#, Java et PHP ou Javascript ont repris une syntaxe similaire au C et reprennent en partie sa logique. C offre au développeur une marge de contrôle importante sur la machine (notamment sur la gestion de la mémoire) et est de ce fait utilisé pour réaliser les « fondations » (compilateurs, interpréteurs…) de ces langages plus modernes." wrappingWidth="551.982421875">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+   </children>
+</AnchorPane>

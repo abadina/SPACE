@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="760.0" style="-fx-background-image: url('space/Ressources/deep_blue.png');" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="space.StarTController">
+  <children>
+      <ImageView id="F" fitHeight="163.0" fitWidth="220.0" layoutX="168.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url('space/Ressources/logo.png');" />
+      <Button layoutX="535.0" layoutY="248.0" mnemonicParsing="false" onAction="#nextpage" prefHeight="46.0" prefWidth="190.0" stylesheets="@button.css" text="START">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="290.0" layoutY="139.0" stylesheets="@Label.css" text="Enjoying Learning" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="259.0" style="-fx-background-color: TRANSPARENT;" stylesheets="@Label.css" text="Venez decouvrir le monde IT" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Pane layoutY="384.0" prefHeight="87.0" prefWidth="760.0" style="-fx-background-color: white;">
+         <children>
+            <Text layoutX="28.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SPACE IT est un jeu éducatif,en ligne, de culture général informatique visant l’apprentissage de compétences et le développement de connaissances dans le domaine de l’IT." textAlignment="CENTER" wrappingWidth="678.13671875" />
+         </children>
+      </Pane>
+   </children>  
+</AnchorPane>
